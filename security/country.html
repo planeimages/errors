@@ -37,7 +37,7 @@
 				text-align: center;
 			}
 
-			#inner {
+			.inner {
 				display: inline-block;
 			}
 
@@ -49,9 +49,11 @@
     <body>
     	<p><img src="../logo.png" /></p>
 	
-        <div id="outer"><div id="inner">
+        <div id="outer"><div class="inner">
 		<h1>Please complete the security check to access PlaneImages.net</h1>
-		::CAPTCHA_BOX::
+		<div class="inner">
+			::CAPTCHA_BOX::
+		</div>
 	</div></div>
     </body>
 </html>
